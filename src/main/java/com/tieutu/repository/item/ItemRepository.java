@@ -2,8 +2,9 @@ package com.tieutu.repository.item;
 
 import org.springframework.data.repository.Repository;
 
-import com.tieutu.entities.Item;
+import com.tieutu.entities.Items;
 
-public interface ItemRepository extends Repository<Item, Integer>{
+
+public interface ItemRepository extends Repository<Items, Integer>{
 
 }
